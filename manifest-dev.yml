@@ -1,0 +1,9 @@
+applications:
+- name: ${project_name}-dev
+  routes:
+    - route: ${project_name}-dev.apps.use.sandbox.pcf.manulife.com
+  buildpacks:
+    - java_buildpack_offline
+  memory: 1024M
+  disk_quota: 256M
+
