@@ -1,7 +1,0 @@
-pipelineDeployToProvisioningAPI(    
-  [        
-    propertiesFileName: 'prod-deploy.properties',        
-    agent:'multi-platform-general',        
-    jenkinsJobTimeOutInMinutes: 15,    
-  ]
-)
