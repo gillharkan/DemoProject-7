@@ -1,4 +1,0 @@
-######DO NOT TOUCH DEVOPS ONLY######
-ARG ChildImage
-FROM docker-local.artifactory.platform.manulife.io/${ChildImage}
-######DO NOT TOUCH DEVOPS ONLY######
